@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Ladidas</title>
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="bigproj.css">
+    
+</head>
+<body>
+        <!--top-->
+        <div class="ccontainer-fluid bg-dark text-white">
+            <div class="row">
+                <div class="col-6 bg-dark text-white text-end">
+                    <p>FREE SHIPPING FOR NEW USERS</p>
+                </div>
+                <div class="col-6 bg-dark text-light text-center">
+                    <p>30 DAYS MONEY BACK GUARANTEE</p>
+                </div>
+            </div>
+        </div>
+        <!--navbar-->
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a href="http://127.0.0.1:5500/bootstrap-5.2.0-beta1-dist/bigproj.html"><img src="img/L-removebg-preview.png" alt="icon" width="100px"></a>   
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+     
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+    
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Categories
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Women's</a></li>
+                      <li><a class="dropdown-item" href="#">Men's</a></li>
+                      <li><a class="dropdown-item" href="#">Kids'</a></li>
+                      <li><a class="dropdown-item" href="#">Gadgets</a></li>
+                      <li><a class="dropdown-item" href="#">Applicances</a></li>
+                      <li><a class="dropdown-item" href="#">Home & Living</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Cart</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Contact Us</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        <!--product-->
+        <div class="row py-5 g-5">
+            <div class="col-12 col-lg-6">
+                <img src="img/product1 (1).jpg" class="m-1 w-100 sliderMainImage" data-bs-toggle="modal" data-bs-target="#imageModal">
+                <div>
+                    <img src="img/product1 (1).jpg" width="60" class="m-1 sliderThumb">
+                    <img src="img/product1 (2).jpg" width="60" class="m-1 sliderThumb">
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <h2 id="productName">
+                    Pink Summer Terno
+                </h2>
+                <h4 class="my-4">
+                    ₱
+                    <span id="price">999.99</span>
+                </h4>
+                <label for="selectSize" class="text-muted">
+                    Size
+                </label>
+                <select class="form-select" name="selectSize" id="size">
+                    <option selected>S</option>
+                    <option value="1">M</option>
+                    <option value="2">L</option>
+                </select>
+                <div class="d-grid my-4">
+                    <button class="btn btn-lg btn-dark" type="button" id="bagBtn">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <strong>Description</strong>
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet labore a enim quas! Ipsum aperiam autem saepe rem, aliquid natus nulla iste animi dolore corrupti repudiandae modi consectetur nostrum maxime.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    
+</body>
+<script src="js/bootstrap.bundle.js"></script>
+</html>
