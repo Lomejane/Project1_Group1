@@ -12,7 +12,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
-    
+    <style>
+      .frstproductimgsml {
+        display: flex;
+        justify-content: space-between;
+      }
+    </style>
 </head>
 <body>
 <!--top-->
@@ -60,59 +65,69 @@
               <button class="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
           </div>
-        </div>
-      </nav>
-        <!--product-->
-      <div class="container">
-        <div class="row py-5 g-5">
-            <div class="col-12 col-lg-6">
-                <img src="img/product1 (1).jpg" class="m-1 w-100 sliderMainImage" data-bs-toggle="modal" data-bs-target="#imageModal">
-                <div>
-                    <img src="img/product1 (1).jpg" width="60" class="m-1 sliderThumb">
-                    <img src="img/product1 (2).jpg" width="60" class="m-1 sliderThumb">
-                </div>
-            </div>
-            <div class="col-12 col-lg-6">
-                <h2 id="productName">
-                    Pink Summer Terno
-                </h2>
-                <h4 class="my-4">
-                    ₱
-                    <span id="price">999.99</span>
-                </h4>
-                <label for="selectSize" class="text-muted">
-                    Size
-                </label>
-                <select class="form-select" name="selectSize" id="size">
-                    <option selected>S</option>
-                    <option value="1">M</option>
-                    <option value="2">L</option>
-                </select>
-                <div class="d-grid my-4">
-                    <button class="btn btn-lg btn-dark" type="button" id="bagBtn">
-                        Add to Cart
-                    </button>
-                </div>
-                <div class="accordion">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                <strong>Description</strong>
-                            </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne">
-                            <div class="accordion-body">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet labore a enim quas! Ipsum aperiam autem saepe rem, aliquid natus nulla iste animi dolore corrupti repudiandae modi consectetur nostrum maxime.
-                            </div>
-                        </div>
-                    </div>
+      </div>
+    </nav>
+<!--product-->
+  <section class="container frstproduct">
+    <div class="row">
+      <div class="col-lg-5 col-md-12 col-12">
+        <img class="img-fluid w-100" src="img/product1 (1).jpg" alt="">
 
-                  </div>
-                </div>
-            </div>
+        <div class="frstproductimgsml">
+          <div class="frstproductimgcol">
+            <img src="img/product1 (1).jpg" class="imgsml" alt="">
+          </div>
+
+          <div class="frstproductimgcol">
+            <img src="img/" class="imgsml" alt="">
+          </div>
+
+          <div class="frstproductimgcol">
+            <img src="img/product1 (5).jpg" class="imgsml" alt="">
+          </div>
+
+          <div class="frstproductimgcol">
+            <img src="img/product1 (6).jpg" class="imgsml" alt="">
+          </div>
+
         </div>
 
-    
+      </div>
+
+      <div></div>
+
+    </div>
+  </section>
+
+<!--FOOTER-->
+<div class="d-flex justify-content-center copyright">
+  <div class="text-white fw-bold m-2 copyright">
+      <i class="fa-solid fa-copyright"> Copyright | by LDJ Corporation. All rights reserved.</i>
+  </div>
+</div>
+<div class="d-flex bg-black justify-content-evenly">
+<a href="https://www.facebook.com/">
+  <div class="text-light m-2">
+  <i class="fa-brands fa-facebook fa-2x"></i>
+  </div>
+</a>
+<a href="https://www.instagram.com/">
+  <div class="text-light m-2">
+  <i class="fa-brands fa-instagram fa-2x"></i>
+  </div>
+</a>
+<a href="https://www.twitter.com/">
+  <div class="text-light m-2">
+  <i class="fa-brands fa-twitter fa-2x"></i>
+  </div>
+</a>
+<a href="https://www.pinterest.com/">
+  <div class="text-light m-2">
+  <i class="fa-brands fa-pinterest fa-2x"></i>
+  </div>
+</a>
+</div>
+<!--END FOOTER-->
 </body>
 <script src="js/bootstrap.bundle.js"></script>
 </html>
