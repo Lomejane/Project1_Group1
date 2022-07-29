@@ -1,3 +1,6 @@
+.marquee {
+    color: rgb(72, 233, 36);
+}
 /* navbar hover color */
 .navbar .navbar-nav .nav-link:hover{
     background-color: orange;
@@ -28,19 +31,20 @@
 .navbar{
     background-color: orange;
 }
-.copyright {
-    background-color: orange;
-}
 .searchtop {
     background-color: white;
 }
 .searchtop .btn:hover{
     background-color: orange;
-    text-decoration-color: white;
+    color: white;
 }
 body {
     font-family: 'Poppins', sans-serif;
 }
-.marquee {
-    color: rgb(72, 233, 36);
+.accordion-button:hover{
+    background-color: orange;
+    color: white;
+}
+.copyright {
+    background-color: orange;
 }
