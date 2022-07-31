@@ -45,6 +45,16 @@ body {
     background-color: orange;
     color: white;
 }
-
-
+.colorcode .pink {
+    color: palevioletred;
+    font-weight: bolder;
+}
+.colorcode .summer {
+    color: orange;
+    font-weight: bolder;
+}
+.colorcode .nature {
+    color: green;
+    font-weight: bolder;
+}
     
