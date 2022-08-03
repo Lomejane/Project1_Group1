@@ -37,7 +37,6 @@
 .searchtop .btn:hover{
     background-color: orange;
     color: white;
-    background-size: ;
 }
 body {
     font-family: 'Poppins', sans-serif;
@@ -134,7 +133,7 @@ body {
 
 
 
-@media screen (max-width: 991px) {
+@media screen and (max-width: 991px) {
     #kids {
         color: blue;
     }
