@@ -48,3 +48,28 @@ body {
 .copyright {
     background-color: orange;
 }
+.wrapper1 {
+    width: 1770px;
+    margin: 0 auto;
+  
+  }
+  .hover-animation {
+    position: relative;
+    height: 350px;
+    width: 350px;
+    margin: 10 auto 0;
+    color: #fff;
+  }
+  .hover-animation img {
+    position: absolute;
+    height: 400px;
+    width: 350px;
+    left: 0;
+    border: 1px solid black;
+    transition: opacity 0.5s ease-in-out;
+  }
+  .hover-animation img.img-front:hover {
+    opacity: 0;
+    cursor: pointer;
+    transform: revert-layer;
+  }
