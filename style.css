@@ -131,11 +131,23 @@ body {
     text-decoration: none;
   }
 
-
-
+  .prof-image {
+    width: 80%;
+    padding-left: 25%;
+  }
 
 @media screen and (max-width: 991px) {
     #kids {
         color: blue;
     }
+    .col-lg-4 {
+      margin-top: 5%;
+    }
 }
+
+@media screen and (max-width: 571px) {
+  .prof-image {
+    width: 100%;
+    padding-left: 0;
+  }
+  }
