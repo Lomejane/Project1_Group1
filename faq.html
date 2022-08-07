@@ -51,12 +51,18 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Cart</a>
               </li>
+              <!--MODAL BUTTONS-->
               <li class="nav-item">
-                <a class="nav-link">Contact Us</a>
+                <a class="nav-link"data-bs-toggle="modal" data-bs-target="#sampleModal">
+                  Contact Us
+                </a>
               </li>
               <li class="nav-item me-2 md-2">
-                <a class="nav-link">Log In | Sign Up</a>
+                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#sampleModal">
+                  Log In | Sign Up
+                </a>
               </li>
+              <!--end MODAL BUTTONS-->
             </ul>
             <form class="d-flex searchtop md-2">
               <input type="text" class="form-control">
@@ -189,6 +195,44 @@
   <!-- Copyright -->
 </footer>
 <!-- Footer -->
+<!--MODAL CONTENT-->
+<div class="modal fade modal-lg" id="sampleModal" data-bs-backdrop="static">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header bg-primary">
+              Contact Us
+          </div>
+          <div class="modal-body imgBackdrop">
+              <div class="row">
+                  <div class="col-md-12">
+                      <label for="">Name:</label>
+                      <br>
+                      <input type="text" class="form-control">
+                  </div>
+                  <div class="col-md-12">
+                      <label for="">Email:</label>
+                      <br>
+                      <input type="text" class="form-control">
+                  </div>
+                  <div class="col-md-12">
+                    <label for="">Message:</label>
+                    <br>
+                    <input type="text" class="form-control">
+                </div>
+              </div>
+          </div>    
+          <div class="modal-footer">
+              <button class="btn btn-primary">
+                  Send
+              </button>
+              <button class="btn btn-secondary" data-bs-dismiss="modal">
+                  Close
+              </button>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- end MODAL CONTENT-->
 </body>
 <script src="js/bootstrap.bundle.js"></script>
 <script src="main.js"></script>
