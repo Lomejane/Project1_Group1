@@ -139,6 +139,7 @@ body {
   /* for home code */
 
 .hover-animation img {
+  padding: 50%;
   position: absolute;
   width: 412px;
   border: 0.1px solid rgb(141, 141, 141);
