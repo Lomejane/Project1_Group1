@@ -140,7 +140,6 @@ body {
 
 .hover-animation img {
   position: absolute;
-  height: 400px;
   width: 412px;
   border: 0.1px solid rgb(141, 141, 141);
   transition: opasity 0.5s ease-in-out;
