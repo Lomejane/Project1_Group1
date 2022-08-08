@@ -136,6 +136,25 @@ body {
     padding-left: 25%;
   }
 
+  /* for home code */
+
+.hover-animation img {
+  position: absolute;
+  height: 400px;
+  width: 412px;
+  border: 0.1px solid rgb(141, 141, 141);
+  transition: opasity 0.5s ease-in-out;
+}
+.hover-animation img.img-front:hover {
+  opacity: 0;
+  cursor: pointer;
+  transform: revert-layer;
+}
+
+/* end cod for home */
+  
+
+
 @media screen and (max-width: 991px) {
     #kids {
         color: blue;
