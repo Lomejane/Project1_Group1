@@ -166,6 +166,8 @@ body {
 
 /* start careers.html*/
 main {
+    width: 100%;
+    height: auto;
     margin: 0;
     padding: 0;
 
@@ -213,6 +215,17 @@ justify-content: center;
   text-shadow: 3px 1px pink;
  
 }
+.careers-text button {
+  /* background-color: rgb(240, 206, 58); */
+  padding: 5px 50px;
+}
+
+.responsive {
+  width: 100%;
+  height: 100%;
+}
+
+
 
 
 /* End Careers.html */
