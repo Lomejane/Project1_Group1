@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/bootstrap.css">
-    <title>Home & Living | Bed</title>
+    <title>Ladidas</title>
     <link rel="icon" href="img/icon.png">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="cart.css">
 </head>
 <body>
 <!--top-->
@@ -32,134 +32,192 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
 
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Categories
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="womens.html">Women's</a></li>
-                  <li><a class="dropdown-item" href="mens.html">Men's</a></li>
-                  <li><a class="dropdown-item" href="kids.html">Kids'</a></li>
-                  <li><a class="dropdown-item" href="gadgets.html">Gadgets</a></li>
-                  <li><a class="dropdown-item" href="appliances.html">Applicances</a></li>
-                  <li><a class="dropdown-item active" href="homeliving.html">Home & Living</a></li>
+                    <li><a class="dropdown-item" href="womens.html">Women's</a></li>
+                    <li><a class="dropdown-item" href="mens.html">Men's</a></li>
+                    <li><a class="dropdown-item" href="kids.html">Kids'</a></li>
+                    <li><a class="dropdown-item" href="gadgets.html">Gadgets</a></li>
+                    <li><a class="dropdown-item" href="appliances.html">Applicances</a></li>
+                    <li><a class="dropdown-item" href="homeliving.html">Home & Living</a></li>
                 </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Cart</a>
               </li>
+              <!--MODAL BUTTONS-->
               <li class="nav-item">
-                <a class="nav-link">Contact Us</a>
+                <a class="nav-link"data-bs-toggle="modal" data-bs-target="#sampleModal">
+                  Contact Us
+                </a>
               </li>
               <li class="nav-item me-2 md-2">
-                <a class="nav-link">Log In | Sign Up</a>
+                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#sampleModal">
+                  Log In | Sign Up
+                </a>
               </li>
+              <!--end MODAL BUTTONS-->
             </ul>
             <form class="d-flex searchtop md-2">
               <input type="text" class="form-control">
               <button class="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
           </div>
-      </div>
-    </nav>
-<!--product-->
-
-<section class="container">
-  <div class="row">
-    <div class="col-lg-6 text-center">
-      <img id=featured src="img/mattress (2).jpg" class="100">
-
-      <div id="slide-wrapper">
-        <div id="slider">
-          <img class="thumbnail active" src="img/mattress (2).jpg">
-          <img class="thumbnail" src="img/mattress (3).jpg">
-          <img class="thumbnail" src="img/mattress (1).jpg">
-
-          <img class="thumbnail" src="img/mattress (4).jpg">
         </div>
+      </nav>
 
-      </div>
-    </div>
+<!--CART CONTENT-->
 
-    <div class="col-lg-6 text-center">
-      <h6 class="py-3 text-warning">Categories / Home & Living</h6>
-      <h3>Rest</h3>
-      <div class="product-price">
-        <h4 class="current-price">₱ 79.99</h4>
-        <p class="original-price text-danger fw-bold"><del>₱ 90.99</del>  37.3% off</p>
-      </div>
-      <div class="product-review">
-        <span class="star text-warning">&#9733</span>
-        <span class="star text-warning">&#9733</span>
-        <span class="star text-warning">&#9733</span>
-        <span class="star text-warning">&#9733</span>
-        <span class="star text-warning">&#9734</span>
-        <span class="star-rate"><mark>4.0</mark>Stars</span>
-        <span class="review-no"><mark>7k</mark>Reviews</span>
-        <span class="quantity-sold"><mark>70k</mark>Buyers</span>
-      </div>
-      <br>
-      <h6>Sizes:</h6>
-      <div class="form-check form-check-inline">
-        <input class="form-check-input ms-1" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-        <label class="form-check-label" for="inlineRadio1">Single</label>
-      </div>
-      <div class="form-check form-check-inline">
-        <input class="form-check-input ms-1" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-        <label class="form-check-label" for="inlineRadio2">Double</label>
-      </div>
-      <div class="form-check form-check-inline">
-        <input class="form-check-input ms-1" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-        <label class="form-check-label" for="inlineRadio2">Queen
-        </label>
-      </div>
-      <div class="form-check form-check-inline">
-        <input class="form-check-input ms-1" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-        <label class="form-check-label" for="inlineRadio2">King
-        </label>
-      </div>
-      <br><br>
-      <form method="get" class="searchtop">
-        Quantity:
-        <input type="number" value="1" class="ms-2 my-3 md-3">
-        <button class="btn my-3 btn-success">Add To Cart</button>
-      </form>
-      <div class="accordion py-2">
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#item-1">
-                    Description
-                </button>
-            </h2>
-            <div id="item-1" class="accordion-collapse collapse show">
-                <div class="accordion-body text-start">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quibusdam fugiat magnam, eaque sit ipsam eveniet velit? Dolorum nobis magni nam illo dolores libero necessitatibus nemo voluptatibus cumque, deleniti laudantium!
-                </div>
-            </div>
+<div class="container cart">
+    <div class="row cartrow text-warning">
+        <div class="col-3">
+            Item Name
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-              <button class="accordion-button collapsed " data-bs-toggle="collapse" data-bs-target="#item-1">
-                  Details
-              </button>
-        </h2>
-        <div id="item-1" class="accordion-collapse collapse " >
-            <div class="accordion-body">
-                <ul>
-                  <li>lorem</li>
-                  <li>lorem</li>
-                  <li>lorem</li>
-                </ul>
-            </div>
+        <div class="col-3">
+            Quantity
         </div>
+        <div class="col-3">
+            Price
+        </div>
+        <div class="col-3">
+            Total
         </div>
     </div>
+    <div class="row cartrow">
+        <div class="col-3">
+            Anastasia
+        </div>
+        <div class="col-3">
+            1
+        </div>
+        <div class="col-3">
+            ₱ 157.50
+        </div>
+        <div class="col-3">
+            ₱ 157.50
+        </div>
     </div>
-  </div>
-</section>
+    <div class="row cartrow">
+        <div class="col-3">
+            Nick
+        </div>
+        <div class="col-3">
+            1
+        </div>
+        <div class="col-3">
+            ₱ 179.99
+        </div>
+        <div class="col-3">
+            ₱ 179.99
+        </div>
+    </div>
+    <div class="row cartrow">
+        <div class="col-3">
+            Mona
+        </div>
+        <div class="col-3">
+            1
+        </div>
+        <div class="col-3">
+            ₱ 79.99
+        </div>
+        <div class="col-3">
+            ₱ 79.99
+        </div>
+    </div>
+    <div class="row cartrow">
+        <div class="col-3">
+            MaciBooki
+        </div>
+        <div class="col-3">
+            1
+        </div>
+        <div class="col-3">
+            ₱ 79.99
+        </div>
+        <div class="col-3">
+            ₱ 79.99
+        </div>
+    </div>
+    <div class="row cartrow">
+        <div class="col-3">
+            Airfryer
+        </div>
+        <div class="col-3">
+            1
+        </div>
+        <div class="col-3">
+            ₱ 88.88
+        </div>
+        <div class="col-3">
+            ₱ 88.88
+        </div>
+    </div>
+    <div class="row cartrow">
+        <div class="col-3">
+            Welcome
+        </div>
+        <div class="col-3">
+            1
+        </div>
+        <div class="col-3">
+            ₱ 777.77
+        </div>
+        <div class="col-3">
+            ₱ 777.77
+        </div>
+    </div>
+</div>
+<div class="container cart">
+    <div class="row">
+        <div class="col-6">
+            Subtotal
+        </div>
+        <div class="col-6">
+            ₱ 1364.12
+        </div>
+    </div>
+</div>
+<div class="container cart">
+    <div class="row">
+        <div class="col-6">
+            Shipping Fee
+        </div>
+        <div class="col-6">
+            ₱ 150.00
+        </div>
+    </div>
+</div>
+<div class="container cart">
+    <div class="row">
+        <div class="col-6">
+            Promo Code
+        </div>
+        <div class="col-6">
+            20% OFF
+        </div>
+    </div>
+</div>
+<div class="container cart">
+    <div class="row">
+        <div class="col-6">
+            Total
+        </div>
+        <div class="col-6">
+            ₱ 1211.30
+        </div>
+    </div>
+</div>
+<div class="container">
+    <button>Checkout</button>
+</div>
+<!--END CART CONTENT-->
 
 <!--FOOTER INSPIRATION-->
 <footer class="text-center text-lg-start bg-light text-muted">
@@ -284,30 +342,46 @@
   <!-- Copyright -->
 </footer>
 <!-- Footer -->
+<!--MODAL CONTENT-->
+<div class="modal fade modal-lg" id="sampleModal" data-bs-backdrop="static">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header bg-primary">
+              Contact Us
+          </div>
+          <div class="modal-body imgBackdrop">
+              <div class="row">
+                  <div class="col-md-12">
+                      <label for="">Name:</label>
+                      <br>
+                      <input type="text" class="form-control">
+                  </div>
+                  <div class="col-md-12">
+                      <label for="">Email:</label>
+                      <br>
+                      <input type="text" class="form-control">
+                  </div>
+                  <div class="col-md-12">
+                    <label for="">Message:</label>
+                    <br>
+                    <input type="text" class="form-control">
+                </div>
+              </div>
+          </div>    
+          <div class="modal-footer">
+              <button class="btn btn-primary">
+                  Send
+              </button>
+              <button class="btn btn-secondary" data-bs-dismiss="modal">
+                  Close
+              </button>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- end MODAL CONTENT-->
 </body>
 <script src="JS/bootstrap.bundle.js"></script>
 <script src="main.js"></script>
-
-<script type="text/javascript">
-  let thumbnails = document.getElementsByClassName('thumbnail')
-
-  let activeImages = document.getElementsByClassName('active')
-
-  for (var i=0; i < thumbnails.length; i++){
-
-    thumbnails[i].addEventListener('mouseover', function(){
-      console.log(activeImages)
-      
-      if (activeImages.length > 0){
-        activeImages[0].classList.remove('active')
-      }
-      
-
-      this.classList.add('active')
-      document.getElementById('featured').src = this.src
-    })
-  }
-
-
-</script>
+<script src="cart.js"></script>
 </html>
