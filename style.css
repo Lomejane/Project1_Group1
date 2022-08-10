@@ -225,10 +225,20 @@ justify-content: center;
   height: 100%;
 }
 
-
-
-
 /* End Careers.html */
+
+/* start FAQ page */
+.accordion-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .accord-container {
+  display: flex;
+  justify-content: center;
+} */
+
+/* end FAQ page */
 
 
 @media screen and (max-width: 991px) {
