@@ -185,6 +185,8 @@ main {
 .careers-image {
 align-items: flex-end;
 justify-content: flex-end;
+height: 600px;
+width: 300px;
 
  
 }
@@ -199,6 +201,7 @@ justify-content: center;
   font-family: 'Shrikhand', cursive;
   font-size: 70px;
   color: #FF914D;
+  text-shadow: 3px 1px rgb(240, 206, 58);
 
 }
 .careers-text h2 {
@@ -206,6 +209,9 @@ justify-content: center;
   font-size: 65px;
   padding-left: 150px;
   text-transform: uppercase;
+  color: #FF5F1F;
+  text-shadow: 3px 1px pink;
+ 
 }
 
 
