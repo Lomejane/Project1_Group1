@@ -1,6 +1,12 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
 .marquee {
     color: rgb(72, 233, 36);
 }
@@ -126,7 +132,7 @@ body {
   }
 
 
-/* start index.html hover*/
+/* start index.html hover */
  .animation {
     position: relative;
     height: 400px;
@@ -135,10 +141,10 @@ body {
     
   }
   .animation img{
-    position: absolute;
+    position: absolute; 
     height: 400px;
     width: 350px;
-    border: 1px solid rgb(145, 145, 145);
+   border: 1px solid rgb(145, 145, 145); 
     transition: opacity 0.5s ease-in-out;
   }
   
@@ -231,6 +237,16 @@ justify-content: center;
 
 }
 
+.offset-1{
+  padding: 0;
+  margin: 0;
+}
+
+.card-home{
+  padding: 5% 0;
+  margin: 0;
+}
+
 /* End Careers.html */
 
 /* start FAQ page */
@@ -245,6 +261,10 @@ justify-content: center;
 } */
 
 /* end FAQ page */
+
+.categories-link {
+  text-decoration: none;
+}
 
 
 @media screen and (max-width: 991px) {
