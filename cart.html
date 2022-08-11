@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="cart.css">
 </head>
 <body>
@@ -49,7 +50,7 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Cart</a>
+                <a class="nav-link" href="cart.html">Cart</a>
               </li>
               <!--MODAL BUTTONS-->
               <li class="nav-item">
@@ -74,149 +75,224 @@
 
 <!--CART CONTENT-->
 
-<div class="container cart">
-    <div class="row cartrow text-warning">
-        <div class="col-3">
-            Item Name
+<section class="h-100 h-custom" style="background-color: #eee;">
+  <div class="container py-5 h-100 cart">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col">
+        <div class="card">
+          <div class="card-body p-4">
+
+            <div class="row">
+
+              <div class="col-lg-7">
+                <h5 class="mb-3"><a href="index.html" class="text-body"><i
+                      class="fas fa-long-arrow-alt-left me-2"></i>Continue shopping</a></h5>
+                <hr>
+
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                  <div>
+                    <p class="mb-1">Shopping cart</p>
+                    <p class="mb-0">You have 4 items in your cart</p>
+                  </div>
+                </div>
+
+                <div class="card mb-3" id="box">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <div class="d-flex flex-row align-items-center">
+                        <div>
+                          <img
+                            src="img/womenshoes (1) (1).jpg"
+                            class="img-fluid rounded-3" alt="Shopping item" style="width: 65px;">
+                        </div>
+                        <div class="ms-3">
+                          <h5>Anastasia</h5>
+                          <p class="small mb-0">8, Red</p>
+                        </div>
+                      </div>
+                      <div class="d-flex flex-row align-items-center">
+                        <div style="width: 50px;">
+                          <h5 class="fw-normal mb-0">1</h5>
+                        </div>
+                        <div style="width: 80px;">
+                          <h5 class="mb-0">₱ 157.50</h5>
+                        </div>
+                        <a href="#!" style="color: #cecece;"><i class="fas fa-trash-alt"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <div class="d-flex flex-row align-items-center">
+                        <div>
+                          <img
+                            src="img/menpolo1a.png"
+                            class="img-fluid rounded-3" alt="Shopping item" style="width: 65px;">
+                        </div>
+                        <div class="ms-3">
+                          <h5>Tom</h5>
+                          <p class="small mb-0">Medium, Summer</p>
+                        </div>
+                      </div>
+                      <div class="d-flex flex-row align-items-center">
+                        <div style="width: 50px;">
+                          <h5 class="fw-normal mb-0">1</h5>
+                        </div>
+                        <div style="width: 80px;">
+                          <h5 class="mb-0">₱ 179.99</h5>
+                        </div>
+                        <a href="#!" style="color: #cecece;"><i class="fas fa-trash-alt"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <div class="d-flex flex-row align-items-center">
+                        <div>
+                          <img
+                            src="img/adidas1.png" alt="Shopping item" style="width: 65px;">
+                        </div>
+                        <div class="ms-3">
+                          <h5>Claire</h5>
+                          <p class="small mb-0">Red</p>
+                        </div>
+                      </div>
+                      <div class="d-flex flex-row align-items-center">
+                        <div style="width: 50px;">
+                          <h5 class="fw-normal mb-0">1</h5>
+                        </div>
+                        <div style="width: 80px;">
+                          <h5 class="mb-0">₱ 79.99</h5>
+                        </div>
+                        <a href="#!" style="color: #cecece;"><i class="fas fa-trash-alt"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card mb-3 mb-lg-0">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <div class="d-flex flex-row align-items-center">
+                        <div>
+                          <img
+                            src="img/robotwhitemain.png" alt="Shopping item" style="width: 65px;">
+                        </div>
+                        <div class="ms-3">
+                          <h5>Robot X5</h5>
+                          <p class="small mb-0">White</p>
+                        </div>
+                      </div>
+                      <div class="d-flex flex-row align-items-center">
+                        <div style="width: 50px;">
+                          <h5 class="fw-normal mb-0">1</h5>
+                        </div>
+                        <div style="width: 80px;">
+                          <h5 class="mb-0">₱ 79.99</h5>
+                        </div>
+                        <a href="#!" style="color: #cecece;"><i class="fas fa-trash-alt"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-lg-5">
+
+                <div class="card bg-success text-white rounded-3">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                      <h5 class="mb-0">Card details</h5>
+                      <img src="img/ORG (3).png"
+                        class="img-fluid rounded-3" style="width: 45px;" alt="Avatar">
+                    </div>
+
+                    <p class="small mb-2">Card type</p>
+                    <a href="#!" type="submit" class="text-white"><i
+                        class="fab fa-cc-mastercard fa-2x me-2"></i></a>
+                    <a href="#!" type="submit" class="text-white"><i
+                        class="fab fa-cc-visa fa-2x me-2"></i></a>
+                    <a href="#!" type="submit" class="text-white"><i
+                        class="fab fa-cc-amex fa-2x me-2"></i></a>
+                    <a href="#!" type="submit" class="text-white"><i class="fab fa-cc-paypal fa-2x"></i></a>
+
+                    <form class="mt-4">
+                      <div class="form-outline form-white mb-4">
+                        <input type="text" id="typeName" class="form-control form-control-lg" siez="17"
+                          placeholder="Cardholder's Name" />
+                        <label class="form-label" for="typeName">Cardholder's Name</label>
+                      </div>
+
+                      <div class="form-outline form-white mb-4">
+                        <input type="text" id="typeText" class="form-control form-control-lg" siez="17"
+                          placeholder="1234 5678 9012 3457" minlength="19" maxlength="19" />
+                        <label class="form-label" for="typeText">Card Number</label>
+                      </div>
+
+                      <div class="row mb-4">
+                        <div class="col-md-6">
+                          <div class="form-outline form-white">
+                            <input type="text" id="typeExp" class="form-control form-control-lg"
+                              placeholder="MM/YYYY" size="7" id="exp" minlength="7" maxlength="7" />
+                            <label class="form-label" for="typeExp">Expiration</label>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-outline form-white">
+                            <input type="password" id="typeText" class="form-control form-control-lg"
+                              placeholder="&#9679;&#9679;&#9679;" size="1" minlength="3" maxlength="3" />
+                            <label class="form-label" for="typeText">Cvv</label>
+                          </div>
+                        </div>
+                      </div>
+
+                    </form>
+
+                    <hr class="my-4">
+
+                    <div class="d-flex justify-content-between">
+                      <p class="mb-2">Subtotal</p>
+                      <p class="mb-2">₱ 497.47</p>
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                      <p class="mb-2">Shipping</p>
+                      <p class="mb-2">₱100.00</p>
+                    </div>
+
+                    <div class="d-flex justify-content-between mb-4">
+                      <p class="mb-2">Total(Incl. taxes)</p>
+                      <p class="mb-2">₱597.47</p>
+                    </div>
+
+                    <button type="button" class="btn btn-warning btn-block btn-lg">
+                      <div class="d-flex justify-content-between">
+                        <span>
+                          ₱597.47 </span>
+                        <span> Checkout <i class="fas fa-long-arrow-alt-right ms-2"></i></span>
+                      </div>
+                    </button>
+
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
         </div>
-        <div class="col-3">
-            Quantity
-        </div>
-        <div class="col-3">
-            Price
-        </div>
-        <div class="col-3">
-            Total
-        </div>
+      </div>
     </div>
-    <div class="row cartrow">
-        <div class="col-3">
-            Anastasia
-        </div>
-        <div class="col-3">
-            1
-        </div>
-        <div class="col-3">
-            ₱ 157.50
-        </div>
-        <div class="col-3">
-            ₱ 157.50
-        </div>
-    </div>
-    <div class="row cartrow">
-        <div class="col-3">
-            Nick
-        </div>
-        <div class="col-3">
-            1
-        </div>
-        <div class="col-3">
-            ₱ 179.99
-        </div>
-        <div class="col-3">
-            ₱ 179.99
-        </div>
-    </div>
-    <div class="row cartrow">
-        <div class="col-3">
-            Mona
-        </div>
-        <div class="col-3">
-            1
-        </div>
-        <div class="col-3">
-            ₱ 79.99
-        </div>
-        <div class="col-3">
-            ₱ 79.99
-        </div>
-    </div>
-    <div class="row cartrow">
-        <div class="col-3">
-            MaciBooki
-        </div>
-        <div class="col-3">
-            1
-        </div>
-        <div class="col-3">
-            ₱ 79.99
-        </div>
-        <div class="col-3">
-            ₱ 79.99
-        </div>
-    </div>
-    <div class="row cartrow">
-        <div class="col-3">
-            Airfryer
-        </div>
-        <div class="col-3">
-            1
-        </div>
-        <div class="col-3">
-            ₱ 88.88
-        </div>
-        <div class="col-3">
-            ₱ 88.88
-        </div>
-    </div>
-    <div class="row cartrow">
-        <div class="col-3">
-            Welcome
-        </div>
-        <div class="col-3">
-            1
-        </div>
-        <div class="col-3">
-            ₱ 777.77
-        </div>
-        <div class="col-3">
-            ₱ 777.77
-        </div>
-    </div>
-</div>
-<div class="container cart">
-    <div class="row">
-        <div class="col-6">
-            Subtotal
-        </div>
-        <div class="col-6">
-            ₱ 1364.12
-        </div>
-    </div>
-</div>
-<div class="container cart">
-    <div class="row">
-        <div class="col-6">
-            Shipping Fee
-        </div>
-        <div class="col-6">
-            ₱ 150.00
-        </div>
-    </div>
-</div>
-<div class="container cart">
-    <div class="row">
-        <div class="col-6">
-            Promo Code
-        </div>
-        <div class="col-6">
-            20% OFF
-        </div>
-    </div>
-</div>
-<div class="container cart">
-    <div class="row">
-        <div class="col-6">
-            Total
-        </div>
-        <div class="col-6">
-            ₱ 1211.30
-        </div>
-    </div>
-</div>
-<div class="container">
-    <button>Checkout</button>
-</div>
+  </div>
+</section>
+<br><br>
 <!--END CART CONTENT-->
 
 <!--FOOTER INSPIRATION-->
@@ -384,4 +460,5 @@
 <script src="JS/bootstrap.bundle.js"></script>
 <script src="main.js"></script>
 <script src="cart.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </html>
