@@ -246,6 +246,10 @@ justify-content: center;
 
 /* end FAQ page */
 
+.categories-link {
+  text-decoration: none;
+}
+
 
 @media screen and (max-width: 991px) {
     #kids {
