@@ -1,7 +1,9 @@
 .cart {
-  padding: 20px;
-  margin-left: 50px;
+  padding: 100px;
 }
-.cartrow {
-  padding: 10px;
-}
+
+@media (min-width: 1025px) {
+  .h-custom {
+  height: 100vh !important;
+  }
+  }

@@ -152,6 +152,8 @@ body {
 
 /* start careers.html*/
 main {
+    width: 100%;
+    height: auto;
     margin: 0;
     padding: 0;
 }
@@ -209,7 +211,12 @@ justify-content: center;
   text-shadow: 3px 1px pink;
  
 }
+.careers-text button {
+  /* background-color: rgb(240, 206, 58); */
+  padding: 5px 50px;
+}
 
+<<<<<<< HEAD
 .imgabout {
   width: 150px;
   height: 60px;
@@ -218,9 +225,27 @@ justify-content: center;
 .career-row {
   margin-right: 0;
   padding: 0 10%;
+=======
+.responsive {
+  width: 100%;
+  height: 100%;
+>>>>>>> 35ee4b833cb56020a3680515c207ed40d5704db0
 }
 
 /* End Careers.html */
+
+/* start FAQ page */
+.accordion-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .accord-container {
+  display: flex;
+  justify-content: center;
+} */
+
+/* end FAQ page */
 
 
 @media screen and (max-width: 991px) {
