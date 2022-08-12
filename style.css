@@ -303,3 +303,10 @@ justify-content: center;
       padding-left: .7em;
   }
 }
+
+footer {
+  background-color: rgb(94, 91, 91);
+  padding: 1px;
+  margin: 1px;
+  color: #f2a676;
+}
