@@ -29,9 +29,9 @@ main {
     background-color: rgba(128, 128, 128, 0.11);
    
 }
-change the heading 
-.accordion-title {
-    background-color: red;
-}
 
+.form-control.shadow-orange:focus {
+    border-color: #fc8702fb;
+    box-shadow: 0 0 0 0.2rem #fca46e;
+  }
   
