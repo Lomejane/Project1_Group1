@@ -1,0 +1,37 @@
+main {
+    padding: 0;
+    height: 50vh;
+
+}
+.accordion-flush {
+ 
+    border: 1px solid gray;
+
+}
+
+.accordion-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.accordion-title h1 {
+     margin-bottom: 10px;
+}
+.accord-container {
+    display: flex;
+    width: 100%;
+    justify-content: center; 
+
+    
+}
+.accordion-item{
+    background-color: rgba(128, 128, 128, 0.11);
+   
+}
+change the heading 
+.accordion-title {
+    background-color: red;
+}
+
+  

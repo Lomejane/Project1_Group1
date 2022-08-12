@@ -253,14 +253,17 @@ justify-content: center;
 /* End Careers.html */
 
 /* start FAQ page */
-.accordion-title {
+/* .accordion-title {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-/* .accord-container {
+.accord-container {
   display: flex;
+  width: 100%;
   justify-content: center;
+  border: 1px solid green;
+  
 } */
 
 /* end FAQ page */
