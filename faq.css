@@ -4,6 +4,11 @@ main {
     margin-bottom: 10vw; */
 
 }
+
+.marquee {
+    color:  #c0510c;
+    font-family: 'Orbitron', sans-serif;
+}
 .accordion-flush {
  
     border: 1px solid gray;
