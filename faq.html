@@ -7,18 +7,18 @@
     <link rel="stylesheet" href="CSS/bootstrap.css">
     <title>Frequently Asked Questions | Ladidas</title>
     <link rel="icon" href="img/icon.png">
-    <link rel="stylesheet" href="faq.css">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;1,100;1,800&family=Orbitron:wght@500&family=Shrikhand&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  </head>
-<body>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="faq.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
 <!--top-->
-  <marquee class="fw-bold bg-dark md-2 marquee"> 
+<marquee class="fw-bold bg-dark md-2 marquee"> 
     FREE SHIPPING FOR NEW USERS --- 30 DAYS MONEY BACK GUARANTEE --- Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis saepe quibusdam quos deleniti labore, laboriosam eum quidem voluptatem consequuntur fugiat doloremque illo nobis temporibus obcaecati nulla, laborum aliquid quo! Dolores? ---
   </marquee>
 
@@ -160,8 +160,8 @@
     
     </div>
   </div>  -->
-  <div class="container">
-    <div class="panel-group" id="accordion">
+  <div class="container" width="200px">
+    <!-- <div class="panel-group" id="accordion">
       <div class="panel panel-default">
         <div class="panel-heading">
           <h4 class="panel-title">
@@ -224,10 +224,50 @@
         </div>
         
       </div>
-    </div> 
-  </div>
+    </div>  -->
+  <!-- </div> -->
       
 <br>
+
+<div class="accordion py-2">
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed show" data-bs-toggle="collapse" data-bs-target="#item-1">
+                1. Can I get free delivery even if I purchase only 1 item?
+            </button>
+        </h2>
+        <div id="item-1" class="accordion-collapse collapse show">
+            <div class="accordion-body text-start">
+                Yes, as long as all of the items will be ship in the Philippines.
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#item-1">
+                2. What is your shipping tameframe?
+            </button>
+        </h2>
+        <div id="item-1" class="accordion-collapse collapse">
+            <div class="accordion-body text-start">
+                Typically, orders are shipped within 3 to 5 business days.
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#item-1">
+                3. What are the payment methods?
+            </button>
+        </h2>
+        <div id="item-1" class="accordion-collapse collapse">
+            <div class="accordion-body text-start">
+                You can pay through Gcash, PayPal, Debit / Credit Cards.
+            </div>
+        </div>
+    </div>
+</div>
+  </div>
 
       <!-- End Accordion -->
 
