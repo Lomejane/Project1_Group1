@@ -39,9 +39,17 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 .accordion-button:hover{
-    background-color: #f35f02;
-    color: white;
+    /* background-color: #f35f02;
+    color: white; */
+    color: black;
 }
+
+.accordion-button:focus{
+  box-shadow: none;
+  text-decoration: none;
+  
+}
+
 .copyright {
     background-color: #f35f02;
 }
