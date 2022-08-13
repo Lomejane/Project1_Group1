@@ -1,6 +1,7 @@
 main {
     padding: 0;
-    height: 50vh;
+    /* height: 50vh;
+    margin-bottom: 10vw; */
 
 }
 .accordion-flush {
@@ -20,7 +21,8 @@ main {
 }
 .accord-container {
     display: flex;
-    width: 100%;
+    /* width: 100%;
+    height: auto; */
     justify-content: center; 
 
     
