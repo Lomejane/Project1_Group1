@@ -4,6 +4,8 @@
   .marquee {
     color:  #c0510c;
     font-family: 'Orbitron', sans-serif;
+    
+
 }
   /* navbar hover color */
   .navbar .navbar-nav .nav-link:hover{
@@ -126,6 +128,7 @@
 
 .card-body a {
 text-decoration: none;
+
 }
 .card-body a{
     color: #c0510c;
@@ -136,25 +139,45 @@ text-decoration: none;
     text-decoration: underline;
 }
 
-/* end index.html */
-
-@media screen and (max-width: 991px) {
-    #kids {
-        color: blue;
+  @media screen and (min-width:992px) {
+    .navbar{
+        padding: 0;
     }
-    .col-lg-4 {
-      margin-top: 5%;
-    }
-}
-
-@media screen and (max-width: 571px) {
-  .prof-image {
-    width: 100%;
-    padding-left: 0;
   }
+/*   
+  .navbar .navbar-nav .nav-link{
+    padding: 1em;
+  } */
+  @media screen and (max-width:991px) {
+    .navbar-brand{
+        padding-left: .7em;
+    }
   }
 
-.imgabout {
-  width: 150px;
-  height: 60px;
-}
+  footer {
+    background-color: rgb(48, 46, 46);
+    padding: 1px;
+    margin: 1px;
+    color: #f35f02;
+  }
+  .modal-header {
+    background-color: #f35f02;
+  }
+  .modal-footer .btn:hover {
+    background-color: #f18b4c;
+    color: white;
+  }
+  
+  .modal-footer .btn{
+    background-color: #f35f02;
+    color: white;
+  }
+  .cart {
+    padding: 100px;
+  }
+  
+  @media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+    }

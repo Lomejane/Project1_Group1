@@ -125,11 +125,12 @@
 }
 
 .card-body a {
+    color: #c0510c;
 text-decoration: none;
 }
 
 .card-body a :hover{
-    color: rgba(54, 155, 250, 0.986);
+    color:  #c0510c;
     text-decoration: underline;
 }
 

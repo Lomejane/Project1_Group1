@@ -121,15 +121,16 @@
     border: none;
 }
 .card-body {
-    margin-left: 3%;
+    margin-left: 7%;
 }
 
-.card-body a {
-text-decoration: none;
+.card-body a{
+    text-decoration: none;
+    color: #c0510c;
 }
 
 .card-body a :hover{
-    color: rgba(54, 155, 250, 0.986);
+    color: #c0510c;
     text-decoration: underline;
 }
 

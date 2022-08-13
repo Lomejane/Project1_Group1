@@ -1,12 +1,6 @@
 * {
     box-sizing: border-box;
   }
-  
-  body {
-    padding: 0;
-    margin: 0;
-  }
-  
   .marquee {
     color:  #c0510c;
     font-family: 'Orbitron', sans-serif;
@@ -17,6 +11,20 @@
       color: white;
   }
   
+  @media screen and (min-width:992px) {
+      .navbar{
+          padding: 0;
+      }
+  }
+  
+  .navbar .navbar-nav .nav-link{
+      padding: 1em;
+  }
+  @media screen and (max-width:991px) {
+      .navbar-brand{
+          padding-left: .7em;
+      }
+  }
   .dropdown-item:hover{
       background-color: orange;
       color: white;
@@ -85,188 +93,64 @@
   .active{
       opacity: 1;
   }
-  
-  /* for kidsprod1 hover */
-  .colorcode .pink:hover{
-      background-color: pink;
-      color: white;
-    }
-    .colorcode .summer:hover{
-      background-color: orange;
-      color: white;
-    }
-    .colorcode .night:hover{
-      background-color: black;
-      color: white;
-    }
-    .colorcode .nature:hover{
-      background-color: green;
-      color: white;
-    }
-  
-  
-  /* for kidsprod2 hover */
-    .colorcode .blue:hover{
-      background-color: blue;
-      color: white;
-    }
-    .colorcode .green:hover{
-      background-color: green;
-      color: white;
-    }
-    .colorcode .black:hover{
-      background-color: black;
-      color: white;
-    }
-    .colorcode .red:hover{
-      background-color: red;
-      color: white;
-    }
-  
-    .text-reset {
-      text-decoration: none;
-    }
-  
-    .prof-image {
-      width: 80%;
-      padding-left: 25%;
-    }
-  
-  
+
   /* start index.html hover */
-   .animation {
-      position: relative;
-      height: 400px;
-      width: 350px;
-      margin: 3% auto 0;
-      
-    }
-    .animation img{
-      position: absolute; 
-      height: 400px;
-      width: 350px;
-     border: 1px solid rgb(145, 145, 145); 
-      transition: opacity 0.5s ease-in-out;
-    }
-    
-    .animation img.img-front:hover {
-      opacity: 0;
-      cursor: pointer;
-      transform: revert-layer;
-      
-  } 
-  /* end index.html */
-  
-  /* start careers.html*/
-  main {
-      width: 100%;
-      height: auto;
-      margin: 0;
-      padding: 0;
-  }
-  
-      
-      
-  /* }
-  .careers-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    padding: 5px;
-    grid-gap: 2px;
-   
-    
-    
-    
-  }
-  .careers-image {
-  align-items: flex-end;
-  justify-content: flex-end;
-  height: 600px;
-  width: 300px;
-  
-   
-  }
-  .careers-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  } */
-  
-  .careers-image {
-    padding: 10%;
-    padding-right: 0;
-  }
-  
-  .careers-text {
-    padding: 10%;
-  }
-  
-  .careers-text h1 {
-    font-family: 'Shrikhand', cursive;
-    font-size: 70px;
-    color: #FF914D;
-    text-shadow: 3px 1px rgb(240, 206, 58);
-  
-  }
-  .careers-text h2 {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 65px;
-    /* padding-left: 150px; */
-    text-transform: uppercase;
-    color: #FF5F1F;
-    text-shadow: 3px 1px pink;
-   
-  }
-  .careers-text button {
-    /* background-color: rgb(240, 206, 58); */
-    padding: 5px 50px;
-  }
-  
-  .imgabout {
-    width: 150px;
-    height: 60px;
-  }
-  
-  .career-row {
-    margin-right: 0;
-    padding: 0 10%;
-  }
-  .responsive {
+ .animation {
+    position: relative;
+    height: auto;
     width: 100%;
-    height: 100%;
+    margin: 3%;
+ }
+    
   
+  .animation img{
+    position: absolute; 
+    /* height: 400px;
+    width: 350px; */
+   border: 1px solid rgb(145, 145, 145); 
+    transition: opacity 0.5s ease-in-out;
   }
   
-  .offset-1{
-    padding: 0;
-    margin: 0;
-  }
-  
-  .card-home{
-    padding: 5% 0;
-    margin: 0;
-  }
-  
-  /* End Careers.html */
-  
-  /* start FAQ page */
-  .accordion-title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  /* .accord-container {
-    display: flex;
-    justify-content: center;
-  } */
-  
-  /* end FAQ page */
-  
-  .container{
+  .animation img.img-front:hover {
+    opacity: 0;
+    cursor: pointer;
+    transform: revert-layer;
+    
+} 
+.card {
     border: none;
+}
+.card-body {
+    margin-left: 3%;
+}
+
+.card-body a {
+    color: #c0510c;
+text-decoration: none;
+}
+
+.card-body a :hover{
+    color:  #c0510c;
+    text-decoration: underline;
+}
+
+/* end index.html */
+
+@media screen and (max-width: 991px) {
+    #kids {
+        color: blue;
+    }
+    .col-lg-4 {
+      margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 571px) {
+  .prof-image {
+    width: 100%;
+    padding-left: 0;
   }
-  
+  }
   
   @media screen and (max-width: 991px) {
       #kids {
