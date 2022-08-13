@@ -49,6 +49,13 @@
       background-color: orange;
       color: white;
   }
+  .accordion-button:not(.collapsed){
+    color: #c0510c;
+    background-color: gray;
+  }
+  .accordion-button:not(.collapsed) {
+    color: #c0510c;
+  }
   .copyright {
       background-color: orange;
   }
