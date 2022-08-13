@@ -31,6 +31,7 @@ body {
 }
 .searchtop {
     background-color: white;
+    box-shadow: #f35f02;
 }
 .searchtop .btn:hover{
     background-color: #f35f02;
@@ -330,3 +331,12 @@ footer {
   background-color: #f35f02;
   color: white;
 }
+.cart {
+  padding: 100px;
+}
+
+@media (min-width: 1025px) {
+  .h-custom {
+  height: 100vh !important;
+  }
+  }
