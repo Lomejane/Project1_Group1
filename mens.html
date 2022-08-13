@@ -53,12 +53,18 @@
               <li class="nav-item">
                 <a class="nav-link" href="cart.html">Cart</a>
               </li>
+              <!--MODAL BUTTONS-->
               <li class="nav-item">
-                <a class="nav-link">Contact Us</a>
+                <a class="nav-link"data-bs-toggle="modal" data-bs-target="#sampleModal">
+                  Contact Us
+                </a>
               </li>
               <li class="nav-item me-2 md-2">
-                <a class="nav-link">Log In | Sign Up</a>
+                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#logINModal">
+                  Log In | Sign Up
+                </a>
               </li>
+              <!--end MODAL BUTTONS-->
             </ul>
             <form class="d-flex searchtop md-2">
               <input type="text" class="form-control shadow-orange">
@@ -300,7 +306,7 @@
 <div class="modal fade modal-lg" id="sampleModal" data-bs-backdrop="static">
   <div class="modal-dialog">
       <div class="modal-content">
-          <div class="modal-header bg-primary">
+          <div class="modal-header text-white">
               Contact Us
           </div>
           <div class="modal-body imgBackdrop">
@@ -318,15 +324,15 @@
                   <div class="col-md-12">
                     <label for="">Message:</label>
                     <br>
-                    <input type="text" class="form-control">
+                    <textarea type="text" class="form-control" cols="10" rows="5"> </textarea>
                 </div>
               </div>
           </div>    
           <div class="modal-footer">
-              <button class="btn btn-primary">
+              <button class="btn text-white">
                   Send
               </button>
-              <button class="btn btn-secondary" data-bs-dismiss="modal">
+              <button class="btn text-white" data-bs-dismiss="modal">
                   Close
               </button>
           </div>
@@ -337,7 +343,7 @@
 <div class="modal fade modal-lg" id="logINModal" data-bs-backdrop="static">
   <div class="modal-dialog">
       <div class="modal-content">
-          <div class="modal-header bg-primary">
+          <div class="modal-header text-white">
               Contact Us
           </div>
           <div class="modal-body imgBackdrop">
@@ -355,10 +361,10 @@
               </div>
           </div>    
           <div class="modal-footer">
-              <button class="btn btn-primary">
+              <button class="btn text-white">
                   Log In
               </button>
-              <button class="btn btn-secondary" data-bs-dismiss="modal">
+              <button class="btn text-white" data-bs-dismiss="modal">
                   Cancel
               </button>
           </div>

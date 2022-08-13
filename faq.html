@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/bootstrap.css">
     <title>Frequently Asked Questions | Ladidas</title>
+    <link rel="stylesheet" href="faq.css">
     <link rel="icon" href="img/icon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,7 +15,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;1,100;1,800&family=Orbitron:wght@500&family=Shrikhand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="faq.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
 
 <!--top-->
@@ -74,223 +74,85 @@
       </div>
     </nav>
 
-
-<!-- 
-    <main>
-      <br>
-  <div class="accordion-title">
-  
-
-
-   <h1>Frequently Ask Questions (FAQ)</h1>
-  </div>
-  <br> --> -->
-
-  <!-- <div class="accord-container">
-
-   <div class="accordion accordion-flush w-50" id="accordionFlushExample">
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="flush-headingOne">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-         1. Can I get free delivery even if I purchase only 1 item?
-        </button>
-      </h2>
-      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-        <div class="accordion-body">Yes, as long as your item will be ship inside the Philippines.</div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="flush-headingTwo">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-         2. What is your shipping tameframe?
-        </button>
-      </h2>
-      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-        <div class="accordion-body">Typically orders are shipped within 3 to 5 business days.</div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="flush-headingThree">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-         3. What are the payment methods?
-        </button>
-      </h2>
-      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-        <div class="accordion-body">You can pay through Gcash, PayPal, Debit / Credit Cards.</div>
-      </div>
-    </div>
-   
-
+<!--ACCORDION FAQ-->
+<div class="container faqs">
+  <h1>Frequently Asked Questions</h1>
+  <div class="accordion">
       <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingFour">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-            4. How do I return my order?
-            </button>
+          <h2 class="accordion-header">
+              <button class="accordion-button btn-lg btn-block collapsed" data-bs-toggle="collapse" data-bs-target="#item-1">
+                Can I get free delivery even if I purchase only 1 item?
+              </button>
           </h2>
-          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">You will have <span style="color: orange;">2</span> return options: <span style="color: orange;">1.</span> Return via 2Go Express.<span style="margin-left: 10px;"> <span style="color: orange;">2.</span> Return in one of our own Retail Store.</span></div>
-          </div>
-        </div>
-     
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="flush-headingFive">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-         5. When will I get my refund?</span> 
-          </button>
-        </h2>
-        <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-          <div class="accordion-body">Your refund will be processed as soon as the product you have returned is inspected by our quality assurance team and it is confirmed that it fits within our returns policy. This quality check can take up to 2 weeks, though generally less. Generally, you will recieve and email regarding the status of your refund. </div>
-        </div>
-      </div>
-
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="flush-headingSix">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-          6. What do I do if my question isn't covered here??
-          </button>
-        </h2>
-        <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
-          <div class="accordion-body">
-            We highly recommend you to reach out to our Customer Support Team <span style="color: orange;">(02-09122-45)</span>,</a> and our advisors will be happy to assist you.
-          </div>
-        </div>
-      </div>
-
-      
-    
-    </div>
-  </div>  -->
-
-<main>
-  <br>
-<div class="accordion-title">
-<!-- Start Accordion -->
-
-
-<h1>Frequently Ask Questions (FAQ)</h1>
-</div>
-<br>
-  <div class="container" width="200px">
-    <div class="panel-group" id="accordion">
-  <div class="container" style="box-shadow: orange;">
-    <div class="panel-group" id="accordion">
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" style="text-decoration: none;"> 1. Can I get free delivery even if I purchase only 1 item?</a>
-          </h4>
-        </div>
-  
-        <div id="collapse1" class="panel-collapse collapse in">
-          <div class="panel-body">Yes, as long as all of the items will be ship in the Philippines.</div>
-        </div>
-      </div>
-      <br>
-
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" style="text-decoration: none;">2. What is your shipping tameframe?</a>
-          </h4>
-        </div>
-        <div id="collapse2" class="panel-collapse collapse">
-          <div class="panel-body">Typically, orders are shipped within 3 to 5 business days.</div>
-        </div>
-      </div>
-      <br>
-
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" style="text-decoration: none;">3. What are the payment methods?</a>
-          </h4>
-        </div>
-        <div id="collapse3" class="panel-collapse collapse">
-          <div class="panel-body">You can pay through Gcash, PayPal, Debit / Credit Cards.</div>
-        </div>
-      </div>
-      <br>
-
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" style="text-decoration: none;">4. How do I return my order?</a>
-            </h4>
-          </div>
-        <div id="collapse4" class="panel-collapse collapse">
-          <div class="panel-body">You will have <span style="color:#fc8702fb">2</span> return options: <span style="color: #fc8702fb;">1.</span> Return via 2Go Express.<span style="color: #fc8702fb;"> 2.</span> Return in one of our own Retail Store.</div></div>
-        </div>
-      </div>
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse5" style="text-decoration: none;">5. When will I get my refund? </a>
-          </h4>
-        </div>
-        <div id="collapse5" class="panel-collapse collapse">
-          <div class="panel-body">Your refund will be processed as soon as the product you have returned is inspected by our quality assurance team and it is confirmed that it fits within our returns policy</div>
-        </div>
-      </div>
-      <br>
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse6 " style="text-decoration: none;"> 6. What do I do if my question isn't covered here?</a>
-          </h4>
-        </div>
-        <div id="collapse6" class="panel-collapse collapse">
-          <div class="panel-body"> We highly recommend you to reach out to our Customer Support Team <span style="color: #fc8702fb;">(02-09122-45)</span>,</a> and our advisors will be happy to assist you.</div>
-        </div>
-        
-      </div>
-    </div> 
-  </div>
-      
-<br>
-
-<!-- <div class="accordion py-2">
-    <div class="accordion-item">
-        <h2 class="accordion-header">
-            <button class="accordion-button collapsed show" data-bs-toggle="collapse" data-bs-target="#item-1">
-                1. Can I get free delivery even if I purchase only 1 item?
-            </button>
-        </h2>
-        <div id="item-1" class="accordion-collapse collapse show">
-            <div class="accordion-body text-start">
+          <div id="item-1" class="accordion-collapse show">
+              <div class="accordion-body">
                 Yes, as long as all of the items will be ship in the Philippines.
-            </div>
-        </div>
-    </div>
-    <div class="accordion-item">
-        <h2 class="accordion-header">
-            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#item-1">
-                2. What is your shipping tameframe?
-            </button>
-        </h2>
-        <div id="item-1" class="accordion-collapse collapse">
-            <div class="accordion-body text-start">
+              </div>
+          </div>
+      </div>
+      <div class="accordion-item">
+          <h2 class="accordion-header">
+              <button class="accordion-button btn-lg btn-block collapsed" data-bs-toggle="collapse" data-bs-target="#item-2">
+                What is your shipping tameframe?
+              </button>
+          </h2>
+          <div id="item-2" class="accordion-collapse collapse">
+              <div class="accordion-body">
                 Typically, orders are shipped within 3 to 5 business days.
+              </div>
+          </div>
+      </div>
+      <div class="accordion-item">
+          <h2 class="accordion-header">
+              <button class="accordion-button  btn-lg btn-block collapsed" data-bs-toggle="collapse" data-bs-target="#item-3">
+                What are the payment methods?
+              </button>
+          </h2>
+          <div id="item-3" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                You can pay through Gcash, PayPal, Debit / Credit Cards.
+              </div>
+          </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button btn-lg btn-block collapsed" data-bs-toggle="collapse" data-bs-target="#item-4">
+              How do I return my order?
+            </button>
+        </h2>
+        <div id="item-4" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              You will have <span style="color:#fc8702fb">2</span> return options: <span style="color: #fc8702fb;">1.</span> Return via 2Go Express.<span style="color: #fc8702fb;"> 2.</span> Return in one of our own Retail Store.
             </div>
         </div>
     </div>
     <div class="accordion-item">
-        <h2 class="accordion-header">
-            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#item-1">
-                3. What are the payment methods?
-            </button>
-        </h2>
-        <div id="item-1" class="accordion-collapse collapse">
-            <div class="accordion-body text-start">
-                You can pay through Gcash, PayPal, Debit / Credit Cards.
-            </div>
+      <h2 class="accordion-header">
+          <button class="accordion-button btn-lg btn-block collapsed" data-bs-toggle="collapse" data-bs-target="#item-5">
+            When will I get my refund?
+          </button>
+      </h2>
+      <div id="item-5" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            Your refund will be processed as soon as the product you have returned is inspected by our quality assurance team and it is confirmed that it fits within our returns policy
+          </div>
+      </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button btn-lg btn-block collapsed" data-bs-toggle="collapse" data-bs-target="#item-6">
+          What do I do if my question isn't covered here?
+        </button>
+    </h2>
+    <div id="item-6" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          We highly recommend you to reach out to our Customer Support Team <span style="color: #fc8702fb;">(02-09122-45)</span>,</a> and our advisors will be happy to assist you.
         </div>
     </div>
 </div>
-  </div> -->
-
-      <!-- End Accordion -->
-
-    </main>
+  </div>
+</div>
+<!--END ACCORDION FAQ-->
 
 <!--FOOTER INSPIRATION-->
 <footer class="text-center text-lg-start">
@@ -419,7 +281,7 @@
 <div class="modal fade modal-lg" id="sampleModal" data-bs-backdrop="static">
   <div class="modal-dialog">
       <div class="modal-content">
-          <div class="modal-header bg-primary">
+          <div class="modal-header text-white">
               Contact Us
           </div>
           <div class="modal-body imgBackdrop">
@@ -437,15 +299,15 @@
                   <div class="col-md-12">
                     <label for="">Message:</label>
                     <br>
-                    <input type="text" class="form-control">
+                    <textarea type="text" class="form-control" cols="10" rows="5"> </textarea>
                 </div>
               </div>
           </div>    
           <div class="modal-footer">
-              <button class="btn btn-primary">
+              <button class="btn text-white">
                   Send
               </button>
-              <button class="btn btn-secondary" data-bs-dismiss="modal">
+              <button class="btn text-white" data-bs-dismiss="modal">
                   Close
               </button>
           </div>
@@ -456,7 +318,7 @@
 <div class="modal fade modal-lg" id="logINModal" data-bs-backdrop="static">
   <div class="modal-dialog">
       <div class="modal-content">
-          <div class="modal-header bg-primary">
+          <div class="modal-header text-white">
               Contact Us
           </div>
           <div class="modal-body imgBackdrop">
@@ -474,10 +336,10 @@
               </div>
           </div>    
           <div class="modal-footer">
-              <button class="btn btn-primary">
+              <button class="btn text-white">
                   Log In
               </button>
-              <button class="btn btn-secondary" data-bs-dismiss="modal">
+              <button class="btn text-white" data-bs-dismiss="modal">
                   Cancel
               </button>
           </div>

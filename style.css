@@ -25,7 +25,7 @@ body {
     color: white;
 }
 .navbar{
-    background-color: #f35f02;
+    background-color: white;
 }
 .searchtop {
     background-color: white;
@@ -72,8 +72,6 @@ body {
 	max-height: 600px;
 	object-fit: cover;
 	cursor: pointer;
-	
-
 }
 
 .thumbnail{
@@ -83,8 +81,6 @@ body {
 	cursor: pointer;
 	opacity: 0.5;
 	margin: 5px;
-	
-
 }
 
 .thumbnail:hover{
@@ -346,3 +342,11 @@ footer {
   height: 100vh !important;
   }
   }
+
+.titleFeature {
+  text-align: center;
+}
+.titleFeature img {
+  width: 600px;
+}
+
