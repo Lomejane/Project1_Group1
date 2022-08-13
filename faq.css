@@ -1,26 +1,32 @@
-main {
+* main {
     padding: 0;
-    height: 50vh;
+    /* height: 50vh;
+    margin-bottom: 10vw; */
 
+ } 
+
+.marquee {
+    color:  #c0510c;
+    font-family: 'Orbitron', sans-serif;
 }
-.accordion-flush {
- 
+ .accordion-flush {
     border: 1px solid gray;
-
 }
 
-.accordion-title {
+ .accordion-title {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} 
 
 .accordion-title h1 {
      margin-bottom: 10px;
 }
 .accord-container {
     display: flex;
-    width: 100%;
+}
+    /* width: 100%;
+    height: auto; 
     justify-content: center; 
 
     
@@ -29,9 +35,19 @@ main {
     background-color: rgba(128, 128, 128, 0.11);
    
 }
+<<<<<<< HEAD
 /* change the heading  */
 /* .accordion-title {
     background-color: red;
 } */
+=======
+>>>>>>> 02eeaa1dc1b8013d3b3d47248fb4a15d45245e41
 
+.form-control.shadow-orange:focus {
+    border-color: #fc8702fb;
+    box-shadow: 0 0 0 0.2rem #fca46e;
+  }
+
+  .panel panel-default {
+    border:rgba(128, 128, 128, 0.11);
   

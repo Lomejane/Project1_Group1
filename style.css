@@ -8,40 +8,44 @@ body {
 }
 
 .marquee {
-    color: rgb(72, 233, 36);
+    color:  #c0510c;
+    font-family: 'Orbitron', sans-serif;
+    
+
 }
 /* navbar hover color */
 .navbar .navbar-nav .nav-link:hover{
-    background-color: orange;
+    background-color: #f35f02;
     color: white;
 }
 
 .dropdown-item:hover{
-    background-color: orange;
+    background-color: #f35f02;
     color: white;
 }
 .navbar .btn:hover{
     color: white;
 }
 .navbar{
-    background-color: orange;
+    background-color: #f35f02;
 }
 .searchtop {
     background-color: white;
+    box-shadow: #f35f02;
 }
 .searchtop .btn:hover{
-    background-color: orange;
+    background-color: #f35f02;
     color: white;
 }
 body {
     font-family: 'Poppins', sans-serif;
 }
 .accordion-button:hover{
-    background-color: orange;
+    background-color: #f35f02;
     color: white;
 }
 .copyright {
-    background-color: orange;
+    background-color: #f35f02;
 }
     
 #content-wrapper{
@@ -91,7 +95,7 @@ body {
     color: white;
   }
   .colorcode .summer:hover{
-    background-color: orange;
+    background-color: #f35f02;
     color: white;
   }
   .colorcode .night:hover{
@@ -272,6 +276,11 @@ justify-content: center;
   text-decoration: none;
 }
 
+.form-control.shadow-orange:focus {
+  border-color: #fc8702fb;
+  box-shadow: 0 0 0 0.2rem #fca46e;
+}
+
 
 @media screen and (max-width: 991px) {
     #kids {
@@ -310,3 +319,24 @@ footer {
   margin: 1px;
   color: #f35f02;
 }
+.modal-header {
+  background-color: #f35f02;
+}
+.modal-footer .btn:hover {
+  background-color: #f18b4c;
+  color: white;
+}
+
+.modal-footer .btn{
+  background-color: #f35f02;
+  color: white;
+}
+.cart {
+  padding: 100px;
+}
+
+@media (min-width: 1025px) {
+  .h-custom {
+  height: 100vh !important;
+  }
+  }
