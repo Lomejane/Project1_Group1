@@ -8,10 +8,8 @@ body {
 }
 
 .marquee {
-    color:  #c0510c;
-    font-family: 'Orbitron', sans-serif;
-    
-
+  color:  #c0510c;
+  font-family: 'Orbitron', sans-serif;
 }
 /* navbar hover color */
 .navbar .navbar-nav .nav-link:hover{
