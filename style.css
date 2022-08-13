@@ -8,8 +8,9 @@ body {
 }
 
 .marquee {
-  color:  #c0510c;
+  color:  #f35f02;
   font-family: 'Orbitron', sans-serif;
+  background-color:  rgb(48, 46, 46);
 }
 /* navbar hover color */
 .navbar .navbar-nav .nav-link:hover{
@@ -349,4 +350,23 @@ footer {
 .titleFeature img {
   width: 600px;
 }
-
+.bts:hover {
+  background-color: purple;
+  color: white;
+}
+.gold:hover{
+  background-color: gold;
+  color: white;
+}
+.lblue:hover{
+  background-color: rgb(0, 238, 255);
+  color: white;
+}
+.gray:hover {
+  background-color:	rgb(128,128,128);
+  color: white;
+}
+.silver:hover {
+  background-color:	rgb(192,192,192);
+  color: white;
+}
