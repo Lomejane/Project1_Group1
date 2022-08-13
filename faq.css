@@ -19,18 +19,11 @@
     justify-content: center;
 } 
 
-.accordion-title h1 {
-     margin-bottom: 10px;
-}
+
 .accord-container {
     display: flex;
 }
-    /* width: 100%;
-    height: auto; 
-    justify-content: center; 
 
-    
-}
 .accordion-item{
     background-color: rgba(128, 128, 128, 0.11);
    
@@ -41,6 +34,6 @@
     box-shadow: 0 0 0 0.2rem #fca46e;
   }
 
-  .panel panel-default {
-    border:rgba(128, 128, 128, 0.11);
-  
+
+
+
