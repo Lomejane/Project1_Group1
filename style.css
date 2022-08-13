@@ -286,7 +286,7 @@ justify-content: center;
 
 @media screen and (max-width: 991px) {
     #kids {
-        color: blue;
+        color:#fc8702fb;;
     }
     .col-lg-4 {
       margin-top: 5%;
