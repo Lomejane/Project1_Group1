@@ -28,6 +28,13 @@
     background-color: rgba(128, 128, 128, 0.11);
    
 }
+<<<<<<< HEAD
+/* change the heading  */
+/* .accordion-title {
+    background-color: red;
+} */
+=======
+>>>>>>> 02eeaa1dc1b8013d3b3d47248fb4a15d45245e41
 
 .form-control.shadow-orange:focus {
     border-color: #fc8702fb;
