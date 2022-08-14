@@ -19,3 +19,10 @@
     color: #f35f02;
 }
 
+@media screen and (max-width: 571px) {
+    .faqs{
+        
+        width: auto;
+        padding: auto;
+    }
+  }
