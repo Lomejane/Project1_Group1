@@ -14,3 +14,15 @@ function openCity(cityName,elmnt,color) {
   }
   // Get the element with id="defaultOpen" and click on it
   document.getElementById("defaultOpen").click();
+
+  // <!-- for dropdown list hover -->
+
+  $(document).ready(function(){
+      $(".dropdown").hover(function(){
+          var dropdownMenu = $(this).children(".dropdown-menu");
+          if(dropdownMenu.is(":visible")){
+              dropdownMenu.parent().toggleClass("open");
+          }
+      });
+  });     
+  
